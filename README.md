@@ -1,5 +1,5 @@
 # TextPad
-Textpad is a project developed and coded by TechieKiddie.
+Textpad is a project developed and programmed by TechieKiddie.
 It is open-source and **strictly not to use for malicious use**.
 
 These are some important things to remember:
