@@ -10,6 +10,8 @@ These are some important things to remember:
 
 2: Older versions need 'favicon.png' in the same directory as the program to run.
 
+3: You must clone to use this project otherwise it doesn't works.
+
 I hope you enjoy using our product.
 
 @TechieKiddie
