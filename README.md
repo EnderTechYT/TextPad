@@ -1,7 +1,9 @@
 # TextPad
-Textpad is a project developed and programmed by TechieKiddie.
+### Textpad is a text editor created and programmed by TechieKiddie.
 It is open-source and **strictly not to use for malicious use**.
-Now, you don't need to do all the steps I mentioned before because I learnt to get better with the help of other people.
 
-I hope you enjoy using our product.
+Version 1.7 is coming soon!
+
+I hope you enjoy using our program.
+
 TechieKiddie
