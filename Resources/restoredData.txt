@@ -1,5 +1,0 @@
-{
-    "darkscreen": 0,
-    "font": "Courier New",
-    "userid": "000000"
-}
