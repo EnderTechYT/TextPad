@@ -4,6 +4,4 @@ It is open-source and **strictly not to use for malicious use**.
 
 Version 1.7 is coming soon!
 
-I hope you enjoy using our program.
-
-TechieKiddie
+Made by TechieKiddie
