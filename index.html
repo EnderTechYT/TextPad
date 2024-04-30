@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TextPad Official Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="Resources/favicon.png" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <style>
+  .prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  }
+  </style>
+</head>
+<body class="prevent-select" draggable="false">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TextPad</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#mainpage">Main Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+		<li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle" href="#mainpage" role="button" data-bs-toggle="dropdown">More..</a>
+		  <ul class="dropdown-menu">
+		    <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#Download">Download</a></li>
+			<li><a class="dropdown-item" href="https://github.com/EnderTechYT/TextPad" target="_new">View project on GitHub</a></li>
+			<li><a class="dropdown-item" href="#">Feeling brave?</a></li>
+		  </ul>
+		</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <h1 id="mainpage">.</h1>
+  <div class="mt-4 mb-4 p-5 bg-primary text-white rounded">
+	<h1 class="display-1">TextPad</h1>
+	<p>TextPad is an open-source text editor created by EnderTech Studios.</p>
+	<p>This Project has started in Jan 24, 2022. Programmed in Python fully.</p>
+	<p>We are trying to make the application easy by more <a class="text-white" href="#feature">features!</a></p>
+	<p>View <a class="text-white" href="https://github.com/TechieKiddie/TextPad" target="_new">Github repository</a></p>
+  </div>
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Download" id="about">Download now!</button>
+</div>
+<div class="container-fluid bg-success text-white mt-4 p-4">
+<h2 class="mt=4 mb-4 display-2">About the application</h2>
+<p>This app is open-source and you have the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of TextPad.</p>
+<p>A huge thanks to <a class="text-white" href="https://www.geeksforgeeks.org/" target="_new">GeeksforGeeks</a> for the inspiration to make this project.</p>
+</div>
+<div class="p-4">
+<img class="img-fluid" src="Resources/Screenshot 1.png" alt="Version 1.6 Screenshot">
+<p id="services" class="mt-2">Version 1.6 Application Screenshot</p>
+</div>
+
+<div class="modal fade" id="Download">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<h4 class="modal-title">Download</h4>
+			<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+		</div>
+		<div class="modal-body">
+			<p>Press the button below to download TextPad.</p>
+			<a href="https://github.com/EnderTechYT/TextPad/releases/download/v1.6.2/textpad-v1.6.2-setup.exe">
+				<button type="submit" class="btn btn-primary">Download TextPad!</button>
+			</a>
+		</div>
+		<div class="modal-footer">
+			<p>Project by <a href="https://github.com/EnderTechYT" target="_new">EnderTech Studios</a> on <a href="https://github.com/EnderTechYT/TextPad" target="_new">GitHub</a></p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
